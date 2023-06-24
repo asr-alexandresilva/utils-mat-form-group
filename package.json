@@ -1,17 +1,15 @@
 {
-  "name": "utils-mat-form-group",
+  "name": "utils-mat-form-group-lib",
   "version": "1.0.0",
   "description": "Methods to help validate and manipulate the material form group",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "peerDependencies": {
-    "@angular/cdk": "^12.1.4",
     "@angular/common": "^12.1.0",
     "@angular/core": "^12.1.0",
     "@angular/material": "^12.1.0",
     "@angular/forms": "^12.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
   },
   "repository": {
     "type": "git",
@@ -22,10 +20,5 @@
     "material",
     "form-group"
   ],
-  "author": "Alexandre Silva <arpsdesigner@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/asr-alexandresilva/utils-mat-form-group/issues"
-  },
-  "homepage": "https://github.com/asr-alexandresilva/utils-mat-form-group#readme"
+  "author": "Alexandre Silva | Epona Consultoria <arpsdesigner@gmail.com>"
 }
