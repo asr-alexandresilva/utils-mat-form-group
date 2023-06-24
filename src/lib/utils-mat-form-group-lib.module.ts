@@ -1,15 +1,14 @@
-import { ModuleWithProviders, NgModule } from '@angular/core';
-import { UtilsMatFormGroupLibComponent } from './utils-mat-form-group-lib.component';
+import { ModuleWithProviders, NgModule } from "@angular/core";
 import {
   UTILS_MAT_FORM_GROUP_CONFIG,
   UtilsMatFormGroupLibConfig,
-} from './model/utils-mat-form-group-lib-config';
-import { UtilsMatFormGroupLibService } from './utils-mat-form-group-lib.service';
+} from "./model/utils-mat-form-group-lib-config";
+import { UtilsMatFormGroupLibService } from "./utils-mat-form-group-lib.service";
 
 @NgModule({
-  declarations: [UtilsMatFormGroupLibComponent],
+  declarations: [],
   imports: [],
-  exports: [UtilsMatFormGroupLibComponent],
+  exports: [UtilsMatFormGroupLibService],
 })
 export class UtilsMatFormGroupLibModule {
   static forRoot(
